@@ -1,0 +1,19 @@
+.yellow, .blue, .green, .red {
+    position: relative;
+
+}
+
+.yellow{
+    left: 100px;
+    bottom: 200px;
+}
+
+.red{
+    left: 200px;
+    bottom: 350px;
+}
+
+.green{
+    left: 100px;
+    bottom: 350px;
+}

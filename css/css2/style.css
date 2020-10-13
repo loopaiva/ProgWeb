@@ -1,0 +1,57 @@
+.main-banner{
+    background-image: url(images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: fixed;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: -8px;
+
+  
+
+}
+
+.main-content{
+
+    background-color: whitesmoke;
+    opacity: 0.7;
+    border-width: 12px;
+    border-style: solid;
+    border-color: lightblue;
+    border-radius: 10%;
+    height: 40%;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 8%;
+    padding: 1%;
+    overflow: auto;
+
+   
+   
+}
+
+
+
+h1{
+    position: relative;
+    font-weight: 200;
+    text-align: center;
+
+ 
+}
+
+.content{
+    position: relative;
+    font-size: 20px;
+    padding: 0px;
+    
+}
+
+
+body{
+    background-color: lightgoldenrodyellow;
+    padding: -10px 10px 10px 10px;
+    display: grid;
+}

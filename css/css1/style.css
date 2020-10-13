@@ -1,0 +1,21 @@
+div{
+    border-width: 12px;
+    border-style: solid;
+    border-color: black;
+    
+    border-bottom-left-radius: 90px ;
+    border-top-right-radius: 90px ;
+
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    width: 500px;
+    height: 100px;
+    background-color:lightgrey;
+}
+
+p{
+
+    margin: 10px 35px 10px 50px;
+    font-size: 20px;
+}
