@@ -1,0 +1,36 @@
+.reserva {
+  background-image: url('assets/reserva.png');
+  position: absolute;
+  left: 0;
+  top: 70px;
+  z-index: 1;
+}
+
+.pontuacao {
+  font-size: 45px;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 1100px;
+  top: center;
+
+}
+
+.vida {
+  background-image: url('assets/arvore.png');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  left: 0;
+  top: 0px;
+ 
+}
+
+
+.foco-incendio {
+  background-image: url('assets/foco.gif');
+  position: absolute;
+  z-index: 2;
+}
