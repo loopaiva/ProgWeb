@@ -13,5 +13,18 @@ function sobre (req, res) {
     })
 }
 
+function ui (req, res) {
+    res.render("main/ui", {
+       // titulo: "O jogo Vigilantes da Floresta ",
+       // layout: false
+    })
+}
 
-module.exports = { index, sobre }
+function game (req, res) {
+    res.render("main/game", {
+       // titulo: "O jogo Vigilantes da Floresta ",
+       // layout: false
+    })
+}
+
+module.exports = { index, sobre, ui, game }

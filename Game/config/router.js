@@ -13,5 +13,8 @@ router.get("/", mainController.index);
 
 router.get("/sobre", mainController.sobre);
 
+router.get("/ui", mainController.ui);
+
+router.get("/game", mainController.game);
 
 module.exports = router;
