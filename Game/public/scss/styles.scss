@@ -3,6 +3,19 @@ h1{
     text-align: center;
 }
 
+.options{
+    text-align: right;
+}
+
+.options a {
+    padding-left: 6px;
+}
+
+#btn-submit{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
 #conteudo{
     font-size: 20px;
     text-align: justify;
@@ -19,6 +32,9 @@ h1{
     
 }
 
+
+
 /*body{
     background-color: $background-color;
 }*/
+
