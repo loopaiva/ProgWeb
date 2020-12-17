@@ -14,8 +14,27 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Curso.init({
-    sigla: DataTypes.STRING,
-    nome: DataTypes.STRING,
+    sigla: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate:{
+        len: {
+          args: [4,4],
+          msg: "A sigla precisa conter 4 caracteres"
+        }
+      }
+    },
+    nome: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate:{
+        len: {
+          args: [3,40],
+          msg: "O nome do curso precisa conter entre 3 e 40 caracteres"
+        }
+      }
+      
+    },
     descricao: DataTypes.STRING,
     areaId: DataTypes.INTEGER
   }, {

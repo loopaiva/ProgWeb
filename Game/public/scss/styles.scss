@@ -3,12 +3,20 @@ h1{
     text-align: center;
 }
 
+.invalid-feedback {
+    display: block;
+}
+
 .options{
     text-align: right;
 }
 
 .options a {
     padding-left: 6px;
+}
+
+.card-body div { 
+    margin-bottom: 10px;
 }
 
 #btn-submit{

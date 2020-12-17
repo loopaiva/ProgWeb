@@ -1,5 +1,11 @@
 <div class="card border-info mb-3" style="max-width: 20rem;">
-    <div class="card-header">{{curso.nome}}</div>
+    <div class="card-header">{{curso.nome}}
+        <div>
+             <a href="/curso/update/{{curso.id}}"> <i class="fas fa-pen"></i> </a>
+             <a href="/curso/remove/{{curso.id}}"> <i class="fas fa-minus-circle"></i> </a>
+                         
+        </div>
+    </div>
     <div class="card-body">
         <div>
             <b> Sigla: </b> {{curso.sigla}}

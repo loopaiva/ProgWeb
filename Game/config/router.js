@@ -20,10 +20,16 @@ router.get("/game", mainController.game);
 router.get("/area", areaController.index);
 
 router.get("/curso", cursoController.index);
-router.get("/curso/:id", cursoController.read);
+
 router.get("/curso/create", cursoController.create);
 router.post("/curso/create", cursoController.create);
+router.get("/curso/:id", cursoController.read);
 
+router.get("/curso/update/:id", cursoController.update);
+router.post("/curso/update/:id", cursoController.update);
+
+
+router.get("/curso/remove/:id", cursoController.remove);
 
 
 
