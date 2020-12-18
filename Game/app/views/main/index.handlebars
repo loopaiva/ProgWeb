@@ -1,12 +1,56 @@
+<div class="bs-component">
+  <div class="alert alert-dismissible alert-warning">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <h4 class="alert-heading">Atenção!</h4>
+    <p class="mb-0"> Por se tratar de uma versão beta, email e login não estão sendo checados,
+      mas ao apertar em "entrar" a página é direcionada a /cursos.</p>
+  </div>
+</div>
 
-<h1> Inicio </h1>
+
+<form action="/curso" class="div-login">
+
+  <div class="login-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+      placeholder="Enter email">
+    
+  </div>
 
 
-<i class="fas fa-ambulance"></i>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
+  <div class="login-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    
+  </div>
+
+  <div id="bnt-login-div"> 
+    <button  href="/sobre" class="btn btn-success">entrar</button>
+  </div>
+
+
+</form>
+
+
+<!-- -->
+
+<div class="bs-component">
+  <div class="jumbotron">
+    <h1 class="display-3">Bem vindo!</h1>
+    <p class="lead">Este é o jogo  Vigilantes da Floresta, em que o jogador vigia uma determinada reserva florestal contra incêndios e outros males. </p>
+    <hr class="my-4">
+   
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/sobre" role="button">Saiba mais</a>
+    </p>
+  </div>
+</div>
+
+<!-- -->
+
+
+
+
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
